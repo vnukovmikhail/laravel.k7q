@@ -16,6 +16,6 @@
         Hello world!
     </h1>
 
-    <x-footer/>
+    <x-footer />
 </body>
 </html>
