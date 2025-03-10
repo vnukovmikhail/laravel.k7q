@@ -3,7 +3,7 @@
 return [
     'nav_items' => [
         'index' => 'Home',
-        'about' => 'About-Us',
+        'courses' => 'Courses',
         'contacts' => 'Contacts',
         'login' => 'Login',
         'register' => 'Register',

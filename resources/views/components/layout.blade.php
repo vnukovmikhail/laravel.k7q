@@ -6,16 +6,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>{{ config('app.name') }}</title>
 </head>
-<body>
+<body class="flex flex-col h-screen">
     <x-header/>
-
-    <main class="h-screen grid place-items-center text-7xl font-black">
-        {{ $slot }}
-    </main>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
-
+    <main class="flex-grow">{{ $slot }}</main>
     <x-footer />
 </body>
 </html>
